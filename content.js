@@ -5,7 +5,7 @@ window.PORTFOLIO = {
   name: 'Shehab Uddin',
   title: 'Mechanical design & engineering',
   location: 'Cambridge, Ontario',
-  email: 'shehab.uwindsor@gmail.com',
+  email: 'uddin43@uwindsor.ca',
   linkedin: 'https://www.linkedin.com/in/suddin01/',
   introduction: 'Mechanical design, detailed drawings and engineering analysis for industrial equipment. My work connects CAD development with fabrication, assembly and performance.',
   credentials: ['MASc · Mechanical Engineering', 'Certified SolidWorks Professional'],
