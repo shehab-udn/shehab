@@ -1,32 +1,141 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Shehab Uddin — mechanical design, CAD and engineering analysis portfolio.">
-<meta name="theme-color" content="#f3ebe1">
-<title>Shehab Uddin | Mechanical Engineering Portfolio</title>
-<link rel="stylesheet" href="theme.css">
-<script src="content.js" defer></script><script src="app.js" defer></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Shehab Uddin — mechanical design, CAD and engineering analysis portfolio.">
+  <meta name="theme-color" content="#eee4d8">
+  <title>Shehab Uddin | Mechanical Engineering Portfolio</title>
+  <link rel="stylesheet" href="theme.css">
+  <script src="content.js" defer></script>
+  <script src="app.js" defer></script>
 </head>
 <body>
-<a class="skip" href="#main">Skip to content</a>
-<header class="site-header"><a class="wordmark" href="#top">Shehab Uddin<span>Mechanical Engineering Professional</span></a><nav id="navigation" aria-label="Main navigation"><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#education">Education</a><a href="#contact">Contact</a></nav></header>
-<main id="main">
-<section id="top" class="about">
-<div class="profile-card"><img id="profile-photo" class="profile-photo" src="assets/profile-reference.jpg" alt="Shehab Uddin" width="112" height="112"><h1>Shehab Uddin</h1><p>Mechanical Design &amp; Analysis</p><span class="profile-rule"></span><p>MASc, Mechanical Engineering<br>University of Windsor</p><p class="location">Cambridge, Ontario, Canada</p></div>
-<div class="about-copy"><h2>About Me</h2><p id="introduction" class="lead"></p><p>I bring together mechanical design and thermofluid analysis, with experience in custom air handling units, mining equipment and reactor research.</p><div id="credentials" class="credentials"></div><a class="button" href="#projects">View projects</a><a class="text-link" href="#contact">Contact</a></div>
-</section>
-<section class="projects-section" aria-labelledby="projects-heading"><div class="section-heading" id="projects"><h2 id="projects-heading">Projects</h2><p>Selected industrial, research and university work.</p></div><div id="project-list"></div></section>
-<section id="skills" class="information-section"><div class="section-heading"><h2>Skills</h2></div><div class="skills-grid">
-<div><h3>Mechanical design</h3><p>SolidWorks · Siemens NX · AutoCAD · Inventor</p><p>Part and assembly modeling, sheet metal, weldments, fabrication drawings, GD&amp;T and bills of materials.</p></div>
-<div><h3>Simulation &amp; analysis</h3><p>ANSYS Fluent · OpenFOAM · ANSYS Mechanical · Cantera</p><p>Fluid flow, heat transfer, chemical kinetics, structural FEA and engineering calculations.</p></div>
-<div><h3>Programming &amp; documentation</h3><p>Python · MATLAB · C++ · Teamcenter</p><p>Simulation workflows, analysis of results, technical reporting and CAD data management.</p></div>
-<div><h3>Engineering collaboration</h3><p>Manufacturing support · Design reviews · Teaching</p><p>Coordination with production and multidisciplinary teams, prototype fabrication and technical communication.</p></div>
-</div></section>
-<section id="education" class="information-section"><div class="section-heading"><h2>Education</h2></div><div class="education-grid"><div><h3>Master of Applied Science</h3><p>Mechanical Engineering</p><p>University of Windsor · Canada</p></div><div><h3>Bachelor of Science</h3><p>Mechanical Engineering</p><p>Rajshahi University of Engineering &amp; Technology · Bangladesh</p></div><div><h3>Certified SolidWorks Professional</h3><p>Dassault Systèmes</p></div></div></section>
-<section id="contact" class="information-section contact"><div><h2>Contact Information</h2><p>For professional inquiries and engineering opportunities, please contact me by email or LinkedIn.</p></div><div><a class="contact-email email-link"></a><p>Cambridge, Ontario, Canada</p><a id="linkedin" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div></section>
-<footer><span>© <span id="year"></span> Shehab Uddin</span><a href="#top">Back to top ↑</a></footer>
-<noscript>Please enable JavaScript to view the project galleries.</noscript>
-</main>
-<dialog id="lightbox" aria-labelledby="lightbox-title"><div class="lightbox-toolbar"><span id="lightbox-counter"></span><button id="close-lightbox" aria-label="Close image">Close ×</button></div><div class="lightbox-stage"><button id="previous-image" class="image-nav" aria-label="Previous image">←</button><img id="lightbox-image" alt=""><button id="next-image" class="image-nav" aria-label="Next image">→</button></div><div class="lightbox-caption"><h2 id="lightbox-title"></h2><p id="lightbox-description"></p></div></dialog>
-</body></html>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="#top"><b data-profile="name">Shehab Uddin</b><span>Mechanical Engineering</span></a>
+      <nav id="navigation" aria-label="Main navigation">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="top" class="about" aria-labelledby="profile-heading">
+      <div class="profile-card">
+        <!-- Replace assets/profile.jpg to change the circular portrait. -->
+        <img id="profile-photo" class="profile-photo" src="assets/profile.jpg" alt="Portrait of Shehab Uddin" width="112" height="112" fetchpriority="high">
+        <div class="profile-info">
+          <h1 data-profile="name">Shehab Uddin</h1>
+          <p data-profile="title">Mechanical Design &amp; Analysis</p>
+          <span class="profile-rule" aria-hidden="true"></span>
+          <p>MASc, Mechanical Engineering<br>University of Windsor</p>
+          <p class="location" data-profile="location">Cambridge, Ontario, Canada</p>
+        </div>
+      </div>
+      <div class="about-copy">
+        <h2 id="profile-heading">Professional Profile</h2>
+        <p id="introduction">Mechanical design, detailed drawings and engineering analysis for industrial equipment. My work connects CAD development with fabrication, assembly and performance.</p>
+        <p id="biography">I bring together mechanical design and thermofluid analysis, with experience in custom air handling units, mining equipment and reactor research.</p>
+        <div id="credentials" class="credentials"></div>
+        <div class="about-actions">
+          <a class="button" href="#projects">View projects <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="#contact">Contact</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects-section" aria-labelledby="projects-heading">
+      <div class="section-heading">
+        <h2 id="projects-heading">Projects</h2>
+        <p>Selected industrial, research and university work.</p>
+      </div>
+      <div id="project-list"></div>
+      <noscript>Please enable JavaScript to view the project galleries.</noscript>
+    </section>
+
+    <!-- Edit your skills and education directly in the sections below. -->
+    <section id="skills" class="information-section" aria-labelledby="skills-heading">
+      <div class="section-heading"><h2 id="skills-heading">Skills</h2></div>
+      <div class="skills-grid">
+        <div>
+          <h3>Mechanical design</h3>
+          <p>SolidWorks · Siemens NX · AutoCAD · Inventor</p>
+          <p>Part and assembly modeling, sheet metal, weldments, fabrication drawings, GD&amp;T and bills of materials.</p>
+        </div>
+        <div>
+          <h3>Simulation &amp; analysis</h3>
+          <p>ANSYS Fluent · OpenFOAM · ANSYS Mechanical · Cantera</p>
+          <p>Fluid flow, heat transfer, chemical kinetics, structural FEA and engineering calculations.</p>
+        </div>
+        <div>
+          <h3>Programming &amp; documentation</h3>
+          <p>Python · MATLAB · C++ · Teamcenter</p>
+          <p>Simulation workflows, analysis of results, technical reporting and CAD data management.</p>
+        </div>
+        <div>
+          <h3>Engineering collaboration</h3>
+          <p>Manufacturing support · Design reviews · Teaching</p>
+          <p>Coordination with production and multidisciplinary teams, prototype fabrication and technical communication.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="information-section" aria-labelledby="education-heading">
+      <div class="section-heading"><h2 id="education-heading">Education</h2></div>
+      <div class="education-grid">
+        <div>
+          <h3>Master of Applied Science</h3>
+          <p>Mechanical Engineering</p>
+          <p>University of Windsor · Canada</p>
+        </div>
+        <div>
+          <h3>Bachelor of Science</h3>
+          <p>Mechanical Engineering</p>
+          <p>Rajshahi University of Engineering &amp; Technology · Bangladesh</p>
+        </div>
+        <div>
+          <h3>Certified SolidWorks Professional</h3>
+          <p>Dassault Systèmes</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="information-section contact" aria-labelledby="contact-heading">
+      <div>
+        <h2 id="contact-heading">Contact Information</h2>
+        <p>For professional inquiries and engineering opportunities, please contact me by email or LinkedIn.</p>
+      </div>
+      <div class="contact-links">
+        <a class="contact-email email-link" href="mailto:shehab.uwindsor@gmail.com">shehab.uwindsor@gmail.com</a>
+        <p data-profile="location">Cambridge, Ontario, Canada</p>
+        <a id="linkedin" href="https://www.linkedin.com/in/suddin01/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+    <footer>
+      <span>© <span id="year"></span> <span data-profile="name">Shehab Uddin</span></span>
+      <a href="#top">Back to top ↑</a>
+    </footer>
+  </main>
+
+  <dialog id="lightbox" aria-labelledby="lightbox-title" aria-describedby="lightbox-description">
+    <div class="lightbox-toolbar">
+      <span id="lightbox-counter" aria-live="polite" aria-atomic="true"></span>
+      <button type="button" id="close-lightbox" aria-label="Close image" autofocus>Close ×</button>
+    </div>
+    <div class="lightbox-stage">
+      <button type="button" id="previous-image" class="image-nav" aria-label="Previous image">←</button>
+      <img id="lightbox-image" alt="">
+      <button type="button" id="next-image" class="image-nav" aria-label="Next image">→</button>
+    </div>
+    <div class="lightbox-caption">
+      <h2 id="lightbox-title"></h2>
+      <p id="lightbox-description"></p>
+    </div>
+  </dialog>
+</body>
+</html>

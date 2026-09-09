@@ -1,52 +1,80 @@
-# Shehab Uddin — Mechanical Design Portfolio
+# Shehab Uddin — Mechanical Engineering Portfolio
 
-Single-page portfolio ready for GitHub Pages. No installation or build required.
+A compact, single-page portfolio for employers. Open index.html after extracting the ZIP. No installation or build is required.
 
-## Preview
-Extract the ZIP, then double-click index.html. Keep the files and assets folder together.
+## This revision
 
-## Publish on GitHub
-1. Create a public repository named YOUR-USERNAME.github.io, replacing YOUR-USERNAME with your GitHub username.
-2. Choose Add file > Upload files. Upload the extracted contents including assets. index.html must be at the repository root, not inside another folder. Do not upload the ZIP itself.
-3. Commit the uploaded files to main.
-4. Open Settings > Pages. Under Build and deployment choose Deploy from a branch, select main and / (root), then Save.
-5. Wait for deployment and open the URL shown by GitHub Pages.
+- Small circular portrait with a soft shadow on the profile card.
+- Professional Profile heading and direct links to Projects, Skills, Education and Contact.
+- Five project sections, with four images each: 20 project images in total.
+- Four equal image frames per desktop row; two per row on smaller screens.
+- Uncropped CAD images at rest, with a smooth zoom on mouse hover.
+- Click or tap an image to see the full drawing on the same page.
+- My contribution and Tools are always visible, beside the project summary on desktop.
+- Alternating white and light-brown sections, restrained shadows and compact spacing.
+- One readable stylesheet, theme.css, with no additional styling layers.
 
-Official guide: https://docs.github.com/en/pages/quickstart
-Settings: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+## Update your existing GitHub portfolio
 
-## Replace images
-Replace an existing JPG in assets with your own JPG using exactly the same filename. Use roughly 1600–2400 pixels on the long edge for legible CAD images. Full drawing sheets should retain enough resolution to read when enlarged. Gallery images display uncropped.
+1. Extract this ZIP.
+2. Upload index.html, theme.css, app.js and content.js to the root of your existing portfolio repository.
+3. Upload the required images inside the assets folder, keeping that folder name and the image filenames.
+4. Commit the changes. Your existing GitHub Pages setup can use the updated files.
 
-| Section | Image files |
+index.html must be at the repository root. Upload the extracted contents, not the ZIP or an extra enclosing folder.
+
+If you have separately edited your GitHub copy, keep your own image replacements and copy your text changes into the new content.js before uploading it. This download does not automatically include changes made in a separate GitHub repository.
+
+Older styles.css, enhancements.css and enhancements.js files are no longer loaded by the new index.html. You do not need them for this revision.
+
+## Change your profile picture
+
+Replace assets/profile.jpg with your own JPG named profile.jpg. The site automatically makes it round. A square portrait works best; keep your face near the middle. You do not need to crop the picture into a circle yourself.
+
+You can upload a replacement with the same name; deleting the old file first is unnecessary. If the image is a PNG, either convert it to JPG or update the portrait src in index.html to its actual PNG filename. Renaming an extension does not convert the image.
+
+profile-reference.jpg is a fallback image taken from the portrait in your supplied reference. Leave that file in place.
+
+## Change project images
+
+Replace the following files inside assets, keeping each file's name and extension. Alternatively, edit the corresponding src in content.js to match a new filename. Names are case-sensitive.
+
+| Project section | Four image files |
 | --- | --- |
-| Mafna project A | 01.jpg, 02.jpg |
-| Mafna project B | 03.jpg, 04.jpg |
-| BJIT | 05.jpg, 06.jpg, 07.jpg |
-| Research | 09.jpg, 10.jpg, 11.jpg |
-| Rover | 13.jpg, 14.jpg, rover-detail.jpg |
-| Boiler and vessel | 15.jpg, 16.jpg, vessel-detail.jpg |
+| Mafna — two images for each of two projects | 01.jpg, 02.jpg, 03.jpg, 04.jpg |
+| BJIT | 05.jpg, 06.jpg, 07.jpg, 08.jpg |
+| Research assistant | 09.jpg, 10.jpg, 11.jpg, 12.jpg |
+| Rover challenge | 13.jpg, 14.jpg, rover-detail.jpg, 17-rover-detail.png |
+| Boiler and pressure vessel | 15.jpg, 16.jpg, vessel-detail.jpg, 18-boiler-detail.png |
 
-Then open content.js, find that image, edit title and detail, and change placeholder: true to placeholder: false. The top preview notice disappears automatically when all images have placeholder: false. The included generated illustrations are low-resolution placeholders, not engineering drawings or validated simulation results. The two detail images are crops of corresponding sample assemblies.
+Use original images with enough resolution for an employer to read the drawing in the enlarged view. Thumbnails fit the full image inside the frame before hover.
 
-## Edit text
-Open content.js in Notepad, VS Code, or GitHub's pencil editor. Introduction, email, LinkedIn, credentials and project descriptions are grouped there. Keep commas and brackets intact. Text values use single quotes; use double quotes around a value if it contains an apostrophe.
+After replacing a sample, find it in content.js, update title and detail, and set placeholder: false. This removes the individual Illustrative sample caption. Sample illustrations are generic concepts, not original project drawings or validated analysis results.
 
-- Rename Mafna Project A and Project B when adding actual projects.
-- Update the boiler study description when you have its scope and deliverables.
-- Add an image by copying an image object inside a group's images array, separated by a comma.
-- Change the warm beige palette and compact spacing in theme.css. The main component styling remains in styles.css.
-- Edit index.html for the headline, name, location and education.
-- app.js controls the galleries; routine edits do not require changing it.
+Mafna's two image groups remain in content.js, with two images per group and four total in its gallery. The other project sections each have one group of four.
 
-The contact email uses shehab.uwindsor@gmail.com from the first supplied résumé. No résumé PDF, telephone number or supervisor contact information is bundled.
+## Change writing
 
-## Interaction
-All projects are on one page. Navigation jumps to sections. Select an image to enlarge it; use previous/next buttons or arrow keys to browse, and Escape or Close to return. Layout adapts to mobile and supports reduced-motion preferences.
+| What to change | Where to edit |
+| --- | --- |
+| Name, professional title, location, email and LinkedIn | Top of content.js |
+| Two profile paragraphs | introduction and biography in content.js |
+| Credentials under the profile paragraphs | credentials in content.js |
+| Project titles, organizations, roles and descriptions | projects in content.js |
+| My contribution and Tools | contribution and tools in each project in content.js |
+| Image captions and descriptions | title and detail in each image entry in content.js |
+| Professional Profile heading, profile degree, skills and education | Clearly separated sections in index.html |
+| Formal contact introduction | Contact section in index.html |
+| Colors, spacing, shadows and picture sizes | theme.css |
 
-On desktop, the four Mafna images appear as four equal-size cards in one row. On mobile, image cards stack for legibility.
+Keep quotation marks, commas and brackets intact when editing content.js. To include an apostrophe inside a text value, use double quotes around the whole value. Routine edits do not require changing app.js.
 
-## Sample assets
-Created using the built-in image-generation tool. Prompt: 4 by 4 contact sheet of generic mechanical engineering CAD illustrations on pale blue-gray backgrounds: AHU assembly/layout/sheet metal/drawing; crusher component/drawing/hydraulic routing/machined component; reactor model/conceptual CFD/schematic/laboratory reactor; human-powered rover/chassis/horizontal boiler/vertical pressure vessel. No text, numbers, branding or quantitative claims.
+## Image interaction and accessibility
 
-Unused source images 08.jpg and 12.jpg are available as optional replacements.
+Move the pointer over an image to zoom it within its frame. Captions and project writing remain still. Keyboard focus also previews the zoom; users who prefer reduced motion see stationary images.
+
+Click or tap a picture for the large view. Use the previous/next buttons or left/right arrow keys to browse. Escape or Close returns to the project without leaving the page, and keyboard focus returns to the selected image.
+
+## Included illustrations
+
+The generic engineering images were generated for this portfolio. The profile crop comes from your supplied reference. Existing project descriptions, contributions, tools and image choices are retained. Additional unused sample crops in assets may be kept for later replacement.
