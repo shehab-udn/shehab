@@ -28,10 +28,10 @@ window.PORTFOLIO = {
       description:'Mechanical component design and manufacturing documentation for heavy industrial mining equipment, with CAD data managed in Siemens Teamcenter.',
       contribution:'3D component modeling, detailed 2D drawings, GD&T, bills of materials and support for hydraulic and electrical routing. Collaboration with European clients and manufacturing teams.',
       tools:['Siemens NX','SolidWorks','Teamcenter','GD&T'], groups:[{title:'Component design & documentation',images:[
-        {src:'assets/05.jpg',title:'Crusher component',detail:'Component geometry · CAD model',placeholder:true},
-        {src:'assets/06.jpg',title:'Manufacturing drawing',detail:'Orthographic and section views',placeholder:true},
-        {src:'assets/07.jpg',title:'Hydraulic routing',detail:'System layout and integration',placeholder:true},
-        {src:'assets/08.jpg',title:'Machined interface component',detail:'Crusher component · machined geometry',placeholder:true}]}]
+        {src:'assets/05.JPG',title:'Modeling Improvements',detail:'Component geometry · CAD model',placeholder:true},
+        {src:'assets/06.JPG',title:'Drawing Modifications',detail:'Orthographic and section views',placeholder:true},
+        {src:'assets/07.JPG',title:'Electrical-Hydraulic Routing',detail:'System layout and integration',placeholder:true},
+        {src:'assets/08.JPG',title:'Teamcenter PLM Integration',detail:'Crusher component · machined geometry',placeholder:true}]}]
     },
     {id:'research',number:'03',category:'THERMOFLUIDS & SIMULATION',title:'Reactor modeling & analysis',organization:'University of Windsor · Ekona Power collaboration',role:'Graduate Research Assistant',
       description:'Research in reactor performance using engineering calculations and numerical simulations of fluid flow, heat transfer and chemical reactions.',
