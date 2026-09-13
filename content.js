@@ -46,10 +46,10 @@ window.PORTFOLIO = {
       description:'Design and manufacture of a human-powered rover to traverse a simulated lunar surface, taking structural concepts through CAD, fabrication and testing.',
       contribution:'Chassis and structural subsystem design, FEA of the frame, wheels and suspension, and hands-on welding, cutting, machining and prototype assembly.',
       tools:['SolidWorks','ANSYS Structural','FEA','Fabrication'],groups:[{title:'Vehicle & structural development',images:[
-        {src:'assets/13.jpg',title:'Rover assembly',detail:'Human-powered vehicle · conceptual model',placeholder:true},
-        {src:'assets/14.jpg',title:'Chassis development',detail:'Frame and structural arrangement',placeholder:true},
-        {src:'assets/rover-detail.jpg',title:'Structural detail',detail:'Chassis detail · illustrative close-up',placeholder:true},
-        {src:'assets/17-rover-detail.png',title:'Pedal and suspension detail',detail:'Chassis subsystem · illustrative close-up',placeholder:true}]}]
+        {src:'assets/13.jpg',title:'Manufactured Rover at NASA',detail:'Human-powered vehicle participated in 2019 Human Exploration Rover Challenge',placeholder:false},
+        {src:'assets/14.jpg',title:'Chassis Roll Point',detail:'Frame and structural arrangement with sketch showing rolling point of the rover',placeholder:false},
+        {src:'assets/rover-detail.jpg',title:'Folded 3D Model',detail:'Rover folded geometry to fit in a 5ft cubic box',placeholder:false},
+        {src:'assets/17.jpg',title:'Shop Fabrication',detail:'Chassis subsystem · illustration of fabrication and wishbone suspension positioning',placeholder:false}]}]
     },
     {id:'pressure',number:'05',category:'THERMAL & PRESSURE EQUIPMENT',title:'Boiler & pressure vessel design',organization:'Academic & personal design portfolio',role:'Selected design studies',
       description:'A collection for pressure equipment design studies. Academic work includes full-scale pressure vessel design using ASME Section VIII.',
