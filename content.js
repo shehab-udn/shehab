@@ -25,9 +25,9 @@ window.PORTFOLIO = {
       ]
     },
     { id:'bjit', number:'02', category:'MINING & HEAVY EQUIPMENT', title:'Mining components & system routing', organization:'BJIT Limited · Client: Metso Finland', role:'Mechanical Design Engineer',
-      description:'Mechanical component design and manufacturing documentation for heavy industrial mining equipment, with CAD data managed in Siemens Teamcenter.',
+      description:'Mechanical component design and manufacturing for heavy industrial mining equipment, with CAD data managed in Siemens Teamcenter.',
       contribution:'3D component modeling, detailed 2D drawings, GD&T, bills of materials and support for hydraulic and electrical routing. Collaboration with European clients and manufacturing teams.',
-      tools:['Siemens NX','SolidWorks','Teamcenter','GD&T'], groups:[{title:'Component design & documentation',images:[
+      tools:['Siemens NX','SolidWorks','Teamcenter','GD&T','BOMs','PLM'], groups:[{title:'Component design & documentation',images:[
         {src:'assets/05.JPG',title:'Modeling Improvements',detail:'Component geometry · CAD model',placeholder:false},
         {src:'assets/06.JPG',title:'Drawing Modifications',detail:'Orthographic and section views',placeholder:false},
         {src:'assets/07.JPG',title:'Electrical-Hydraulic Routing',detail:'System layout and integration',placeholder:false},
