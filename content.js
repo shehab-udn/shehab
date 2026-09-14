@@ -14,7 +14,7 @@ window.PORTFOLIO = {
     { id: 'mafna', number: '01', category: 'INDUSTRIAL EQUIPMENT', title: 'Custom air handling units', organization: 'Mafna Air Technologies', role: 'Mechanical Engineer — Design and Application',
       description: 'Design and application work for custom air handling units serving hospitals, schools and industrial facilities, from equipment sizing to production documentation.',
       contribution: 'Engineering calculations, 3D assemblies, sheet metal and weldments, general arrangement drawings, fabrication details and coordination with production teams.',
-      tools: ['SolidWorks', 'AutoCAD', 'Sheet metal', 'BOMs'],
+      tools: ['SolidWorks', 'AutoCAD', 'Revit', 'Sheet metal', 'BOMs', 'GD&T', 'MEP'],
       groups: [
         { title: 'Project A · AHU assembly & layout', images: [
           {src:'assets/01.jpg', title:'Assembly model', detail:'Custom AHU · 3D assembly view', placeholder:true},
