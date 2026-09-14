@@ -38,7 +38,7 @@ window.PORTFOLIO = {
       contribution:'CAD modeling, CFD analysis, design verification and interpretation of simulation results to support reactor development and technical reporting.',
       tools:['ANSYS Fluent','OpenFOAM','Cantera','Python'],groups:[{title:'Geometry, simulation & interpretation',images:[
         {src:'assets/09.jpg',title:'Problem Statement',detail:'Ekona Reactor Challenges',placeholder:false},
-        {src:'assets/10.jpg',title:'Reactor Analysis Framework',detail:'Illustration of simulation framework and five mechanisms' performance',placeholder:false},
+        {src:'assets/10.jpg',title:'Analysis Framework',detail:'Illustration of simulation framework and five mechanisms' performance',placeholder:false},
         {src:'assets/11.jpg',title:'3D Flow Analysis',detail:'Application of chemical mechanisms in a 3D reactor system',placeholder:false},
         {src:'assets/12.jpg',title:'Pathway Analysis',detail:'Pathways showing the behavior of species over temperature',placeholder:false}]}]
     },
