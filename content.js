@@ -56,7 +56,7 @@ window.PORTFOLIO = {
       contribution:'Pressure vessel design and engineering calculations. Boiler study details and supporting drawings will be added with the project images.',
       tools:['ASME Section VIII','Mechanical design','Engineering calculations'],groups:[{title:'Equipment models & design details',images:[
         {src:'assets/15.jpg',title:'Pressure Vessel Calculations',detail:'Project details',placeholder:false},
-        {src:'assets/16.PNG',title:'Vertical Vessel Geometry',detail:'Vessel geometry and nozzle arrangement',placeholder:false},
+        {src:'assets/16.png',title:'Vertical Vessel Geometry',detail:'Vessel geometry and nozzle arrangement',placeholder:false},
         {src:'assets/vessel-detail.jpg',title:'Vessel Static Loadings',detail:'Static loadings with fixture',placeholder:false},
         {src:'assets/18-boiler-detail.jpg',title:'Deformation',detail:'Static deformation of the vertical vessel',placeholder:false}]}]
     }
