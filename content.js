@@ -7,13 +7,13 @@ window.PORTFOLIO = {
   location: 'Cambridge, Ontario, Canada',
   email: 'uddin43@uwindsor.ca',
   linkedin: 'https://www.linkedin.com/in/suddin01/',
-  introduction: 'Mechanical design, detailed drawings and engineering analysis for industrial equipment. My work connects mechanical design with fabrication, analysis, assembly and performance.',
-  biography: 'I bring together mechanical design, engineering drawing, FEA analysis and thermofluid engineering, with experience in custom air handling units, mining equipment, pressure vessel design and reactor research.',
+  introduction: 'Mechanical design, detailed drawings and engineering analysis for industrial equipment. My work connects mechanical design with fabrication, assembly, analysis and performance.',
+  biography: 'I bring together mechanical design, engineering drawing, FEA analysis and thermofluid engineering, with experience in custom air handling units, MEP, mining equipment, pressure vessel design and reactor research.',
   credentials: ['MASc · Mechanical Engineering', 'Certified SolidWorks Professional', 'Working Towards P.Eng.'],
   projects: [
     { id: 'mafna', number: '01', category: 'INDUSTRIAL EQUIPMENT', title: 'Custom air handling units', organization: 'Mafna Air Technologies', role: 'Mechanical Engineer — Design and Application',
       description: 'Design and application work for custom air handling units serving hospitals, schools and industrial facilities, from equipment sizing to production documentation.',
-      contribution: 'Engineering calculations, 3D assemblies, sheet metal and weldments, general arrangement drawings, fabrication details and coordination with production teams.',
+      contribution: 'Engineering calculations, AutoCAD general arrangement drawings, 3D modeling & assemblies, SolidWork sheet metal and weldment fabrication drawings, Revit MEP and coordination with production teams.',
       tools: ['SolidWorks', 'AutoCAD', 'Revit', 'Sheet metal', 'BOMs', 'GD&T', 'MEP'],
       groups: [
         { title: 'Project A · AHU assembly & layout', images: [
