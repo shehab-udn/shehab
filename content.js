@@ -17,11 +17,11 @@ window.PORTFOLIO = {
       tools: ['SolidWorks', 'AutoCAD', 'Revit', 'Sheet metal', 'BOMs', 'GD&T', 'MEP'],
       groups: [
         { title: 'Project A · AHU assembly & layout', images: [
-          {src:'assets/01.jpg', title:'Assembly model', detail:'Custom AHU · 3D assembly view', placeholder:true},
-          {src:'assets/02.jpg', title:'General arrangement', detail:'Equipment layout · orthographic views', placeholder:true}]},
+          {src:'assets/01.jpg', title:'AutoCAD Drawing', detail:'Generic Custom Air handling unit AutoCAD drawing', placeholder:false},
+          {src:'assets/02.jpg', title:'Sheetmetal Modeling-SolidWorks', detail:'Sample detailed drawing of an AHU base with sheetmetal geometry', placeholder:false}]},
         { title: 'Project B · Fabrication & detailing', images: [
-          {src:'assets/03.jpg', title:'Sheet metal assembly', detail:'Enclosure and component arrangement', placeholder:true},
-          {src:'assets/04.jpg', title:'Fabrication drawing', detail:'Part details and manufacturing documentation', placeholder:true}]}
+          {src:'assets/03.jpg', title:'Unit Testing & Inspection', detail:'Pressure drop, three phase current, flow CFM and frequency inspection of AHU', placeholder:false},
+          {src:'assets/04.jpg', title:'HVAC Ducting-Revit', detail:'Observation of duct locations using Autodesk Revit in a building roof', placeholder:false}]}
       ]
     },
     { id:'bjit', number:'02', category:'MINING & HEAVY EQUIPMENT', title:'Mining components & system routing', organization:'BJIT Limited · Client: Metso Finland', role:'Mechanical Design Engineer',
